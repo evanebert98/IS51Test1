@@ -130,9 +130,15 @@ export class OrdersComponent implements OnInit {
           'description': 'Windows Phone',
           'price': 110.00,
           'quantity': 1
-        })
+        });
 
     }
 
+  }
+  clear() {
+    this.orders = [];
+    this.orders.forEach((item, ) =>{
+
+    });
   }
 }
